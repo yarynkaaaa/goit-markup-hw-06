@@ -23,7 +23,7 @@
         <header class="header">
             <div class="container header-container">
                 <nav class="header-navigation">
-                    <a href="./index.html" class="header-logo"
+                    <a href="./index.html" class="header-logo logo"
                         >Web<span class="header-logo-color">Studio</span></a
                     >
                     <ul class="header-menu">
@@ -52,11 +52,83 @@
                         </li>
                     </ul>
                 </address>
+                <button class="burger-btn" type="button">
+                    <svg class="burger-icon" width="24" heigth="24">
+                        <use href="./images/icons.svg#icon-menu"></use>
+                    </svg>
+                </button>
+            </div>
+            <div class="burger-menu">
+                <div class="container burger-container">
+                    <buton class="btn-mbl" type="buton">
+                        <svg class="mbl-close" width="8" height="8">
+                            <use href="./images/icons.svg#icon-close"></use>
+                        </svg>
+                    </buton>
+                    <nav class="mobl-nav">
+                        <ul class="mob-list">
+                            <li class="mob-item">
+                                <a href="./index.html" class="mob-link mob-link-active">Studio</a>
+                            </li>
+                            <li class="mob-item">
+                                <a href="" class="mob-link">Portfolio</a>
+                            </li>
+                            <li class="mob-item">
+                                <a href="" class="mob-link">Contacts</a>
+                            </li>
+                        </ul>
+                    </nav>
+
+                    <address class="mobile-adrss">
+                        <ul class="mobile-adr-list">
+                            <li class="mobile-adr-item">
+                                <a href="tel:+110001111111" class="mob-cnt-link"
+                                    >+11 (000) 111-11-11</a
+                                >
+                            </li>
+                            <li class="mobile-adr-item">
+                                <a href="mailto:info@devstudio.com" class="mobile-contact-link"
+                                    >info@devstudio.com</a
+                                >
+                            </li>
+                        </ul>
+                    </address>
+                    <ul class="socl-icon-menu">
+                        <li class="socl-icon-item">
+                            <a class="socl-icon-link" href="">
+                                <svg class="socl-icon" width="24" height="24">
+                                    <use href="./images/icons.svg#icon-instagram"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="socl-icon-item">
+                            <a class="socl-icon-link" href="">
+                                <svg class="socl-icon" width="24" height="24">
+                                    <use href="./images/icons.svg#icon-twitter"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="socl-icon-item">
+                            <a class="socl-icon-link" href="">
+                                <svg class="socl-icon" width="24" height="24">
+                                    <use href="./images/icons.svg#icon-facebook"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="socl-icon-item">
+                            <a class="socl-icon-link" href="">
+                                <svg class="socl-icon" width="24" height="24">
+                                    <use href="./images/icons.svg#icon-linkedin"></use>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </header>
         <main>
             <section class="hero">
-                <div class="container">
+                <div class="container hero-space">
                     <h1 class="hero-title">Effective Solutions for Your Business</h1>
                     <button type="button" class="button-order">Order Service</button>
                 </div>
@@ -119,7 +191,7 @@
             </section>
 
             <section class="team">
-                <div class="container">
+                <div class="container team-cont">
                     <h2 class="team-title">Our Team</h2>
                     <ul class="team-list">
                         <li class="team-item">
